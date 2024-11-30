@@ -15,6 +15,10 @@ def replace_punctuation(string: str) -> str:
 def get_unique_length(data: str) -> set[int]:
     if not data:
         return set()
+    # Alternative
+    # below approach doesn't require regex,
+    # this approach only removes puncutation from leading and trailing chars
+    # return {len(word.strip(punctuation)) for word in data.split()}
     return {len(replace_punctuation(word)) for word in data.split()}
 
 
