@@ -1,0 +1,10 @@
+2024-06-01 09:15:34 INFO Server started successfully
+2024-06-01 09:17:42 ERROR Unable to connect to database
+2024-06-02 09:18:05 INFO Received request from 192.168.1.10
+2024-06-02 09:19:20 ERROR Disk space low on drive C:
+2024-06-03 09:21:00 INFO User admin logged in
+2024-06-03 09:22:15 WARNING CPU usage is high
+2024-06-04 09:23:30 ERROR Failed to send email notification
+2024-06-04 09:25:45 INFO Scheduled maintenance starts in 10 minutes
+2024-06-05 09:27:00 ERROR Backup process failed
+2024-06-05 09:30:20 INFO New connection from 192.168.1.15
