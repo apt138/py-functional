@@ -17,6 +17,8 @@ def merge(d1: dict[str, int], d2: dict[str, int]) -> dict[str, int]:
 
     if d1 and d2:
         all_keys = d1.keys() | d2.keys()
+        # Alternative using set constructor
+        # all_keys = set(d1) | set(d2)
         return {k: d1.get(k, 0) + d2.get(k, 0) for k in all_keys}
     if d1 == {} and d2 == {}:
         return {}
